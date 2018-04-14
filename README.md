@@ -4,6 +4,6 @@ This the first assignment I did in school together with my group were we were su
 
 ## Resources
 
--HTML/CSS
--SASS
+- HTML/CSS
+- SASS
 
