@@ -1,0 +1,77 @@
+@import"_mobile.scss";
+@import"_tablet.scss";
+@import"_desk.scss";
+@import"_mixin.scss";
+
+@media screen and (max-width: 570px){
+	@import"_mobile.scss";
+	.container_right{
+		display: none;
+	}
+
+	
+	}
+	
+	@media screen and (min-width: 570px){
+		@import"_tablet.scss";
+    /*body{
+        background: purple;
+    }
+		.image{
+			
+		}*/
+		.wrapper{
+			display: flex;
+			.container_left{
+				flex: 1;
+			}
+		
+		
+			
+			
+		
+		
+		
+			
+			.container_right{
+					flex: 1;
+				
+			.varför{
+				display: none;
+			}
+		}
+		}
+}
+
+@media screen and (min-width: 800px){
+		@import"_desk.scss";
+    
+	.wrapper{
+	display: block;
+	.container_left{
+		
+		
+		
+		.frame{
+			display: flex;
+			flex-wrap: wrap;
+			.image{
+				flex-basis: 33%;
+			}
+		}
+	}
+	.container_right{
+		margin-top: 15px;
+	.varför{
+		display: block;
+	}
+		.tuv{
+			display: flex;
+		
+		
+		
+		}
+		
+}
+}
+}

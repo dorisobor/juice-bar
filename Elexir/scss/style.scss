@@ -1,0 +1,156 @@
+@import "_mixin.scss";
+@import "_mobile.scss";
+
+
+/* --- TABLET --- */
+
+@media screen and (min-width:570px) {
+    @import "_tablet.scss";
+    nav {
+        .menu{
+            display: none;
+        }
+
+        
+        .boxcontainer{
+            margin: 20px;
+            padding: 0px;
+            width: 50%;
+            box-shadow: 0px 3px 11px 0px rgba(158,158,158,1);
+        }
+            
+        .juice_gallery{
+            width: 100%;          
+        }
+    
+    }
+        
+            
+}
+
+
+
+/* --- MOBILE --- */
+
+@media screen and (max-width:570px) {
+    @import "_mobile.scss";
+    nav {
+        .menu {
+            display: none;
+        }
+    }
+}
+
+
+/* --- FULL SCREEN --- */
+
+@media screen and (min-width: 800px) {
+    @import "_tablet.scss";
+    
+    nav {
+        .menu {
+            display: block;
+        }
+        
+        .dropdown{
+            display: none;
+        }
+
+    }
+    
+    
+    .address {
+        display: inline-block;
+        float: left;
+        width: 49%;
+        height: 480px;
+    }
+    .contact_header, .varajuicer_header {
+        height: 400px;
+        padding-bottom: 0px;
+        margin: 0px;
+    }
+    
+    
+    .contact_wrapper {
+        box-shadow: none;
+    }
+    .contact {
+        
+    }
+    .map{
+        
+    }
+    .address {
+        
+    }
+    .address_item{
+        display: inline-block;
+        float: left;
+        text-align: center;
+        margin: auto 0px;
+        padding: 0px;
+        width: 50%;
+        padding-top:10px;      
+    } 
+
+    .address_divider{
+        display: none;
+    }
+    .map_address_container {
+        height: 480px;
+        overflow: hidden;
+        margin: 20px 0 80px 0;
+        //padding: 20px;
+        margin-bottom: 80px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+    form {
+        padding: 0 70px 70px 70px;
+    }
+    button {
+        max-width: 30%;
+        display: block;
+        margin: 0 auto;
+        font-size: 15px;
+        border-radius: 20px;
+    }
+    .map_address_container, .map {
+        width: 100%;
+        min-height: 100%;
+    }
+    .map {
+        position: relative;
+        padding-bottom: 46%;
+        height: 480px;
+        overflow: hidden;
+        display: inline-block;
+        float: right;
+        width: 49%;
+    }
+    .map iframe {
+        position: absolute;
+        margin-top: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+    nav{
+        margin: 0px;
+    }
+    
+    .boxcontainer{
+        margin: 20px;
+        padding: 0px;
+        width: 28%;
+        box-shadow: 0px 3px 11px 0px rgba(158,158,158,1);
+    
+    }
+    .searchbar{
+        margin-top:0px;
+    }
+       
+
+}

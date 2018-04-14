@@ -1,0 +1,70 @@
+@import "_mixin.scss";
+@import "_mobile.scss";
+@import "_tablet.scss";
+
+/* ---  --- */
+
+@media screen and (min-width:570px) {
+    @import "_tablet.scss";
+    nav {
+        .menu {
+            display: none;
+        }
+    }
+    header {
+        .headerpic {
+            height: 100vh;
+            background-size: cover;
+            img {
+                top: 300px;
+                position: relative;
+            }
+        }
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+
+/* --- MOBILE SCREEN--- */
+
+@media screen and (max-width:570px) {
+    @import "_mobile.scss";
+    nav {
+        .hamburger {
+            display: block;
+        }
+        .menu {
+            display: none;
+        }
+    }
+    header {
+        .headerpic {
+            img {
+              margin-left: 150px;
+               margin-top: -50px;
+                width: 50%;
+                height: auto;
+                float: left;
+            }
+        }
+    }
+}
+
+
+/* --- FULL SCREEN --- */
+
+@media screen and (min-width: 800px) {
+    @import "_tablet.scss";
+    nav {
+        .hamburger {
+            display: none;
+        }
+        .menu {
+            display: block;
+        }
+    }
+}

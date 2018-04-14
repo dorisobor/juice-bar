@@ -1,0 +1,32 @@
+.wrapper{
+	display: flex;
+	
+	.container_left{
+		flex: 1;
+		.frame{
+			display: flex;
+			flex-wrap: wrap;
+			
+			
+		
+		.image{
+			
+			
+		}
+	}
+	}
+	
+	.container_right{
+		text-align: center;
+		flex: 1;
+		
+		margin: 0px 40px;
+		
+		.retail{
+			h3{
+				margin-top:0px;
+			}
+		}
+	}
+	
+}

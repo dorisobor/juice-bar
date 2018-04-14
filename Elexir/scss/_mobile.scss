@@ -1,0 +1,486 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    .wrapper {
+        width: 100%;
+        header {
+            display: block;
+            
+            
+            .logo {
+                background-image: url(../images/elexir_white.png);
+                background-repeat: no-repeat;
+                //background-size: fill;
+                background-size: contain;
+                float: left;
+                height: 130px;
+                min-width: 150px;
+                margin: 25px 10px 0px 20px;
+              
+            }
+            nav {
+                background: $Colorred;
+                padding: 0px;
+                margin: 0px; 
+                height: 130px;
+                
+                .hamburger {
+                    float: right;
+                    text-align: right;
+                    margin: 10px;
+                    margin-top: 1px;                  
+                    .btn-default {
+                        background-color: transparent;
+                        border: none;
+                        font-family: 'Raleway', sans-serif;
+                        font-size: 2.5em;
+                        color: white;      
+                    }
+                    .btn-default:focus{
+                       outline: none; 
+                    }
+                    .glyphicon {
+                        color: white;
+                        font-size: 30px;
+                        margin-top: 20px;
+                    }
+                    .dropdown-menu{
+                        left: -70px;
+                        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.87);
+                        background:  $Colorred;
+                        min-width:100px;
+                        opacity: 1;
+                        
+                
+                        li{
+                            a{
+                                color: white;
+                                font-family: 'Raleway', sans-serif;
+                                text-align: right;
+                                &:hover{
+                                    color: black;
+                                }
+                                &:focus{
+                                    color: black;
+                                } 
+                   
+                            }
+                            
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contact_header {
+    height: 200px;
+    max-width: 100%;
+    background-image: url(../images/cafe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.varajuicer_header {
+    height: 200px;
+    max-width: 100%;
+    background-image: url(../images/fruit2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    margin-top: -20px;
+}
+
+body {
+    background: white;
+    color: black;
+    line-height: 2;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact_page_container {
+    max-width: 80%;
+    padding: 0px;
+    margin: 0 auto;
+    padding: 0px; 
+}
+
+.map_address_container {
+    margin: 0px;
+    padding-top: 10px;
+    padding: 0px;
+    margin-bottom: 80px; 
+    width: 100%;
+}
+
+.map_address_container, .address h3 {
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin: 35px 20px 25px 20px;
+    color: black;
+}
+
+
+
+.map_address_container, .address p {
+    
+    line-height: 1;
+    padding: 10px 0 15px 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: black;
+   
+}
+.address h3, address p {
+    text-align: center;
+   
+}
+
+.address_item h4{
+    padding: 10px 0 15px 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em;
+    font-weight: 500;
+    color: black;
+    
+}
+
+
+
+.contact_wrapper {
+    margin: 0px;
+    margin-top:70px;
+    padding: 0px;
+}
+
+main {
+    margin: 0px auto;
+    padding: 0px;
+    width: 100%;
+}
+
+.address {
+    background: $Coloryellow;
+    color: black;
+    width: 100%;
+    text-align: left;
+    padding: 2px;
+    margin: 0;
+}
+
+
+
+.address_item{
+    margin-top: 10px;
+    text-align: center;   
+}
+
+#email_h3{
+    margin-top: 25px;
+}
+
+.icon_envelope{
+    margin-top:0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.divider{
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    height: 1px;
+    border-top: 1px solid #292727;
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 0px;     
+}
+
+.address_divider{
+    text-align: center;
+    padding: 0;
+    margin: auto 0;
+    height: 1px;
+    border-top: 1px solid #292727;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;    
+}
+
+.contact {
+    background: #e7e7e7;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.contact h3 {
+    text-align: center;
+    margin: 0px;
+    padding: 30px 10px 10px 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 40px;    
+}
+
+
+/* FORM STYLES */
+
+form {
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;   
+}
+
+.contact form label {
+    margin: 10px 0 10px 0;
+}
+
+.contact form button,
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 0px 0 20px 0;
+    border: 1px solid #9b9da2;
+}
+
+.contact form button {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    background: #818181;
+    border: 0px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+    background: $Colorred;
+    color: white;
+    
+}
+
+
+.map {
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    border: 0;
+    overflow: hidden;   
+}
+
+.map iframe {
+    position: absolute;
+    margin-top: 0;
+    width: 100% !important;
+    height: 100% !important;
+    border: 0;   
+}
+
+.fa-search{
+    color:grey;
+}
+
+.searchbar{
+    width: 100%;
+    border: #c5e3ff 3px solid;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-top:30px;   
+}
+
+input{
+    display: inline-block;
+    border: 0px;
+    width: 70%;
+}
+
+input:focus, input:active{
+    outline:none;
+}
+
+.icon {
+    text-align: center;
+}
+
+.fa-envelope {
+    color: black;
+    font-size: 0.8em;    
+}
+
+.fa-phone-square {
+    color: black;
+    font-size: 0.8em;   
+}
+
+.fa-map-marker {
+    font-size: 0.9em;    
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    background-color: $Colorred;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: 130px;
+    padding: 10px 0 0 0;
+    font-size: 1.5em;
+    max-width: 100%;
+    .social_media_icon {
+        display: inline-block;
+        transition: all .2s ease-in-out;
+        .fa-facebook-square,
+        .fa-twitter-square,
+        .fa-instagram {
+            padding: 20px 10px 10px 10px;
+            color: white;
+        }
+    }
+    .social_media_icon:hover {
+        transform: scale(1.1);
+    }
+    p {
+        padding-top: 5px;
+        font-size: 15px;    
+    }
+}
+
+
+/* FLEXBOX */
+
+.flexcontainer {
+    margin: 0px auto;
+    //padding: 100px;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.flexcontainer h2, p {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;   
+}
+
+
+.flexcontainer h2{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px 10px 10px 10px;    
+}
+
+.flexcontainer p{
+    font-size: 20px;
+    padding-bottom: 2em;    
+}
+
+#about_juices_text{
+   margin: 0 50px 0 50px; 
+}
+
+.juice_gallery {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    width: 200px;
+    height: 250px;
+    flex: 0 0 100%;
+    margin: 0px auto;
+    padding: 0px;     
+}
+
+.box img {
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0px auto; 
+    padding: 20px;  
+}
+
+#img3 {
+    margin-top: -40px;
+    margin-left: 0px;
+}
+
+.title_text, .description h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    width: 100%;
+    margin: 10px auto;
+    padding-top: 0px;  
+}
+
+.title_text h2{
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    
+}
+
+.description {
+    margin: 15px;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    background: $Coloryellow;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.description p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em; 
+    
+}
+
+.boxcontainer {  
+    margin: 20px;
+    padding: 0px;
+    width: 100%;
+    box-shadow: 0px 3px 11px 0px rgba(158, 158, 158, 1);
+    }
+
+
+
+
+    
+

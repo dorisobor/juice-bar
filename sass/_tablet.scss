@@ -1,0 +1,36 @@
+/*Nesting menu*/
+
+.menu {
+    text-align: center;
+    margin: 0px;
+    float: right;
+    //margin-right: 30px;
+    ul {
+        list-style: none;
+        @include padding;
+        display: block;
+        margin-top: -40px;
+        li {
+            display: inline-block;
+            margin: 0px;
+            padding: 85px 15px 0px 15px;
+            a {
+                color: white;
+                text-decoration: none;
+                font-family: 'Vidaloka', serif;
+                font-weight: 400;
+                font-size: 2em;
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+//.headerpic img {
+    //top: 200px;
+    //position: relative;
+    //width: 70%;
+    //height: auto;
+//}

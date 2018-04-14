@@ -1,0 +1,60 @@
+/*Nesting menu*/
+
+    .menu {
+    
+        text-align: center;
+        margin: 0px;
+        display:inline-block;
+        float: right;
+        margin-right: -10px;
+        margin-top: 90px;
+        position: relative;
+        height: 0px;
+        max-width: 75%;
+        
+        ul {
+            list-style: none;
+            @include padding;
+            display: block;
+            margin-top: -40px;
+            margin-bottom: 50px;          
+            li {
+                display: inline-block;
+                margin: 0;
+                padding: 35px 20px 0px 20px;
+                margin: 0px;
+                a {
+                    margin: 0;
+                    padding: 0;
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Vidaloka', serif;
+                    font-weight: 400;
+                    font-size: 1.6em;
+                    
+                    &:hover{
+                        text-decoration: underline;
+                        text-decoration-color: $Coloryellow;
+                        padding: 16px 0px 16px 0px;
+                    }
+                    //&:active{
+                    //background-color: #4CAF50;
+                    //color: white;
+                    //padding: 16px 0px 16px 0px;
+                    //}
+                    
+                }
+               
+            }
+        }
+    }
+
+
+.boxcontainer{
+    margin: 20px;
+    padding: 0px;
+    width: 40%;
+    box-shadow: 0px 3px 11px 0px rgba(158,158,158,1);    
+}
+
+

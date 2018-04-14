@@ -1,0 +1,179 @@
+/*naven samt hamburgarmeny*/
+
+nav {
+    background: $Colorred;
+    padding: 0px;
+    margin: 0px;
+    .hamburger {
+        float: right;
+        text-align: right;
+        margin: 10px;
+        margin-top: 1px;
+        .btn-default {
+            background-color: transparent;
+            border: none;
+            font-family: 'Raleway', sans-serif;
+            font-size: 2.5em;
+            color: white;
+        }
+        .btn-default:focus {
+            outline: none;
+        }
+        .glyphicon {
+            color: white;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+        .dropdown-menu {
+            left: -100px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.87);
+            background: white;
+            li {
+                a {
+                    color: $Colorred;
+                    //padding:0;
+                    //margin:0;
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+body,
+html {
+    @include padding
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*wrapper som täcker hela innehållet*/
+
+.wrapper {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*logo samt veckans juice headerbild*/
+
+header {
+    .logo {
+        background-image: url(../bilder/elexir_white.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        float: left;
+        height: 130px;
+               min-width: 150px;
+               margin: 25px 10px 0px 20px
+    }
+    .headerpic {
+        background-image: url(../bilder/veckansjuice.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+        background-attachment: fixed;
+        background-position: right 0px;
+        img {
+            right: 150px;
+            top:40px;
+            position: relative;
+            width: 50%;
+            height: auto;
+            float:left;
+        }
+    }
+}
+
+
+/*icons*/
+
+.icons {
+    position: relative;
+    top: 15px;
+    margin-bottom: 10px;
+    .icon {
+        overflow: hidden;
+        text-align: center;
+        h3 {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-style: bold;
+            color: $Colorgreen;
+        }
+        img {
+            width: 100px;
+            height: 120px;
+            margin-top: 20px;
+            margin-left: 10px;
+            padding: 10px;
+            border-radius: 50%;
+            transition: transform .5s ease-in-out;
+            &:hover {
+                transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+            }
+        }
+    }
+}
+
+
+/*bild*/
+
+.fruitpic {
+    background-image: url(../bilder/fruits.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    border: 1px solid green;
+    margin-top: 5px;
+    .text {
+        background-color: $Coloryellow;
+        width: 300px;
+        height: 300px;
+        border-color: $Coloryellow;
+        padding: 25px;
+        margin: auto;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        box-shadow: 5px;
+        h3 {
+            font-style: bold;
+        }
+    }
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: $Colorred;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: 130px;
+    padding: 10px 0 0 0;
+    font-size: 1.5em;
+    max-width: 100%;
+    .social_media_icon {
+        display: inline-block;
+        transition: all .2s ease-in-out;
+        .fa-facebook-square,
+        .fa-twitter-square,
+        .fa-instagram {
+            padding: 20px 10px 10px 10px;
+            color: white;
+        }
+    }
+    .social_media_icon:hover {
+        transform: scale(1.1);
+    }
+    p {
+        padding-top: 5px;
+        font-size: 15px;
+    }
+}

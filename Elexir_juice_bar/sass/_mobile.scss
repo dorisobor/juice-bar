@@ -1,0 +1,111 @@
+$elexirColorYellow:#ffcc00;
+$elecirColorRed:#cc0033;
+$elexirColorGreen: #19d300;
+
+body, html  {
+	margin: 0px;
+	padding: 0px;
+
+header {
+	margin: 0px;
+	 .navbar {
+		font-family: 'Vidaloka', serif;
+		position: relative;
+		min-height: 140px;
+		 
+		margin-top:0px;
+		border: 1px solid transparent;
+		img {
+			height: 50;
+			width: 100%;
+			}
+		#navbar-toggle {
+			margin-top: 40px;
+			margin-right: 20px;
+			}
+		.collapsed{
+			margin: 0px;
+			
+		}
+		 .collapse{
+			 margin-top: 90px;
+		 }
+	}
+	.navbar-default {
+		background-color:$elexirColorYellow;
+		margin-bottom:0px;
+		
+	}
+	.jumbotron {
+		background-image: url(../image/fruit.jpg);
+		margin-bottom: 0px;
+		
+	}
+	}
+	.wrapper {
+		border: 1px solid pink;
+		padding: 30px;
+		 p, h3{
+			font-family: 'Raleway', sans-serif;
+		}
+		.container_left{
+			
+			
+			text-align: center;
+			margin: 0px 40px;
+		.frame{
+			display: flex;
+			justify-content: center;
+			
+			
+			
+			 
+			
+		
+				.image {
+					width: 100%;
+					
+					
+					
+		
+				
+				img{
+					border-radius: 50%;
+				width: 200px;
+			height: 200px;
+				}
+			}
+			
+			}
+		.page_title {
+			/*font-size: 5px;*/
+			h3 {
+				margin: 0px;
+			}
+		}
+		.article {
+			
+			p {
+				margin-bottom: 10px;
+			}
+		}
+			
+	}/*container_left*/
+		
+		
+		}/*wrapper*/
+	
+	
+
+
+footer{
+	height: 60px;
+	background-color:$elecirColorRed;
+	p{
+		text-align: center;
+	}
+}
+
+}
+
+
