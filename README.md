@@ -1,6 +1,6 @@
 # Juice bar website
 
-This the first assignment I did in school together with my group were we were supposed to create a website design for a fictional company.
+This the first assignment I did in school together with my group where we were supposed to create a website design for a fictional company.
 
 ## Resources
 
